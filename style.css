@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: rgb(146, 95, 19);
+}
+h1{
+    color:rgb(58, 172, 204);
+    background-color:rgb(190, 168, 135);
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
+#span_s{
+    float:left;
+    margin-left:30px;
+}
+#span_t{
+    float:right;
+    margin-right:30px;
+}
